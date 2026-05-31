@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CHANGE: post title -->
+  <title>template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #fff; color: #111; font-family: 'Geist', sans-serif; font-size: 15px; line-height: 1.8; }
+    .page { max-width: 600px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+    .back { display: inline-block; font-size: 0.8rem; color: #aaa; text-decoration: none; margin-bottom: 2.5rem; }
+    .back:hover { color: #555; }
+    .post-title { font-size: 1.2rem; font-weight: 500; line-height: 1.35; margin-bottom: 0.4rem; }
+    .post-meta { font-size: 0.78rem; color: #aaa; margin-bottom: 2rem; }
+    hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
+
+    .prose p             { color: #333; font-size: 0.9rem; margin-bottom: 1.2rem; }
+    .prose h2            { font-size: 0.95rem; font-weight: 500; margin: 2rem 0 0.5rem; color: #111; }
+    .prose h3            { font-size: 0.88rem; font-weight: 500; margin: 1.5rem 0 0.4rem; color: #555; }
+    .prose ul, .prose ol { padding-left: 1.4rem; margin-bottom: 1.2rem; }
+    .prose li            { font-size: 0.88rem; color: #444; margin-bottom: 0.25rem; }
+    .prose a             { color: #111; text-underline-offset: 3px; }
+    .prose a:hover       { opacity: 0.6; }
+    .prose strong        { font-weight: 500; }
+    .prose em            { font-style: italic; }
+    .prose blockquote {
+      border-left: 2px solid #eee;
+      padding-left: 1rem;
+      margin: 1.5rem 0;
+      color: #999;
+      font-style: italic;
+      font-size: 0.88rem;
+    }
+    .prose code {
+      font-family: monospace;
+      font-size: 0.82em;
+      background: #f5f5f5;
+      border-radius: 4px;
+      padding: 0.1em 0.35em;
+      color: #333;
+    }
+    .prose pre {
+      background: #f8f8f8;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 1.1rem 1.25rem;
+      overflow-x: auto;
+      margin-bottom: 1.2rem;
+    }
+    .prose pre code { background: none; padding: 0; font-size: 0.85rem; line-height: 1.7; }
+
+    .post-footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #eee; }
+    .post-footer a { font-size: 0.8rem; color: #aaa; text-decoration: none; }
+    .post-footer a:hover { color: #555; }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <a class="back" href="../pages/blog.html">← blog</a>
+
+  <!-- CHANGE: title, date, read time -->
+  <h1 class="post-title">Your Post Title</h1>
+  <div class="post-meta">Jun 1, 2025 · 4 min read</div>
+
+  <hr />
+
+  <!-- WRITE YOUR POST HERE -->
+  <article class="prose">
+
+    <p>Opening paragraph. What's this post about and why does it matter?</p>
+
+    <h2>A Section</h2>
+
+    <p>Your thoughts here.</p>
+
+    <ul>
+      <li>First point</li>
+      <li>Second point</li>
+    </ul>
+
+    <h2>Code Example</h2>
+
+    <p>Inline: <code>some_function()</code>. Block:</p>
+
+    <pre><code>def example():
+    return "hello"</code></pre>
+
+    <blockquote>A quote worth pulling out.</blockquote>
+
+    <p>Closing thought.</p>
+
+  </article>
+
+  <div class="post-footer">
+    <a href="../pages/blog.html">← All posts</a>
+  </div>
+
+</div>
+</body>
+</html>
