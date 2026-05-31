@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>blog</title>
+  <title>Essays — Your Name</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -17,7 +17,7 @@
 
     .year-group { margin-bottom: 2rem; }
     .year {
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       font-weight: 500;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -25,7 +25,7 @@
       margin-bottom: 0.5rem;
     }
 
-    .post {
+    .essay {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
@@ -34,31 +34,10 @@
       border-bottom: 1px solid #f5f5f5;
       text-decoration: none;
     }
-    .post:first-of-type { border-top: 1px solid #f5f5f5; }
-    .post-title { font-size: 0.88rem; color: #222; }
-    .post-date  { font-size: 0.77rem; color: #bbb; white-space: nowrap; flex-shrink: 0; }
-    .post:hover .post-title { color: #000; }
-
-    .empty { font-size: 0.88rem; color: #bbb; padding: 1rem 0; }
-
-    .hint {
-      margin-top: 3rem;
-      padding: 1rem 1.25rem;
-      background: #fafafa;
-      border: 1px solid #eee;
-      border-radius: 8px;
-      font-size: 0.8rem;
-      color: #aaa;
-      line-height: 1.6;
-    }
-    .hint code {
-      font-family: monospace;
-      font-size: 0.82em;
-      background: #f0f0f0;
-      padding: 0.1em 0.3em;
-      border-radius: 3px;
-      color: #555;
-    }
+    .essay:first-of-type { border-top: 1px solid #f5f5f5; }
+    .essay-title { font-size: 0.88rem; color: #222; }
+    .essay-date  { font-size: 0.77rem; color: #bbb; white-space: nowrap; flex-shrink: 0; }
+    .essay:hover .essay-title { color: #000; }
   </style>
 </head>
 <body>
@@ -66,16 +45,18 @@
 
   <a class="back" href="../index.html">← back</a>
 
-  <h1>Blog</h1>
+  <h1>Essays</h1>
 
   <div class="year-group">
-    <p class="year">2026</p>
-    <a class="post" href="../blog/the art of starting over.html">
-      <span class="post-title">The Art of Starting Over</span>
-      <span class="post-date">May 31</span>
+    <p class="year">2025</p>
+
+    <a class="essay" href="../essays/The Cost of Time.pdf" target="_blank">
+      <span class="essay-title">The Cost of Time</span>
+      <span class="essay-date">March 2026</span>
     </a>
 
   </div>
+
 </div>
 </body>
 </html>
