@@ -1,6 +1,6 @@
 (function () {
-  var stored = localStorage.getItem('theme');
-  var theme = stored || 'dark';
+  var theme = 'dark';
+  try { theme = localStorage.getItem('theme') || 'dark'; } catch (e) {}
   document.documentElement.setAttribute('data-theme', theme);
 
   window.addEventListener('DOMContentLoaded', function () {
@@ -19,8 +19,8 @@
       var current = document.documentElement.getAttribute('data-theme');
       var next = current === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
       render();
+      try { localStorage.setItem('theme', next); } catch (e) {}
     });
 
     render();
