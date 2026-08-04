@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projects — Abdullah Mohammad</title>
+<meta name="theme-color" content="#0d0d0d">
 <link rel="stylesheet" href="style.css">
-<script>document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'dark');</script>
+<script>var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark')t=(matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';document.documentElement.setAttribute('data-theme',t);</script>
 </head>
 <body>
 <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"></button>
