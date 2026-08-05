@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Abdullah Mohammad</title>
+  <subtitle>writing, quotes, and projects.</subtitle>
+  <link href="https://abvullah.github.io/"/>
+  <link rel="self" href="https://abvullah.github.io/feed.xml"/>
+  <id>https://abvullah.github.io/</id>
+  <updated>2026-08-05T00:00:00Z</updated>
+  <author>
+    <name>Abdullah Mohammad</name>
+  </author>
+  <entry>
+    <title>hope.</title>
+    <link href="https://abvullah.github.io/hope.html"/>
+    <id>https://abvullah.github.io/hope.html</id>
+    <updated>2026-08-05T00:00:00Z</updated>
+    <summary>A personal note on hope, being seen, and existing as a human being.</summary>
+  </entry>
+  <entry>
+    <title>at least try</title>
+    <link href="https://abvullah.github.io/at%20least%20try.html"/>
+    <id>https://abvullah.github.io/at%20least%20try.html</id>
+    <updated>2026-08-01T00:00:00Z</updated>
+    <summary>On the ninety-nine nos before one yes.</summary>
+  </entry>
+  <entry>
+    <title>hello world</title>
+    <link href="https://abvullah.github.io/hello%20world.html"/>
+    <id>https://abvullah.github.io/hello%20world.html</id>
+    <updated>2026-07-20T00:00:00Z</updated>
+    <summary>The first post — this is home.</summary>
+  </entry>
+</feed>

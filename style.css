@@ -54,6 +54,23 @@ a:focus-visible, button:focus-visible {
   outline-offset: 3px;
 }
 
+.skip {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 20;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transform: translateY(-200%);
+  transition: transform 0.15s ease;
+}
+
+.skip:focus { transform: translateY(0); }
+
 .theme-toggle {
   position: fixed;
   top: 1.75rem;
@@ -143,20 +160,6 @@ blockquote cite {
   color: var(--muted);
 }
 
-.empty {
-  color: var(--muted);
-  font-size: 0.95rem;
-  border: 1px dashed var(--border);
-  padding: 1rem 1.2rem;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-.todo {
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-
 p { margin: 0 0 1rem; }
 
 @media (max-width: 480px) {
@@ -167,4 +170,8 @@ p { margin: 0 0 1rem; }
 @media (pointer: coarse) {
   .theme-toggle { top: 3rem; right: 1.1rem; padding: 10px; }
   .theme-toggle svg { width: 24px; height: 24px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body, .skip { transition: none; }
 }
