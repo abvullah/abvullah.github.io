@@ -48,6 +48,14 @@ a:focus-visible, button:focus-visible {
   padding: 1.5rem;
 }
 
+.home .avatar {
+  display: block;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin: 0 auto 1.5rem;
+}
+
 .home .name {
   font-size: clamp(30px, 8vw, 46px);
   font-style: italic;
@@ -56,16 +64,6 @@ a:focus-visible, button:focus-visible {
 
 .clock {
   font-size: 18px;
-}
-
-.contact {
-  position: fixed;
-  right: 16px;
-  bottom: 12px;
-  font-size: 14px;
-  color: #666;
-  text-align: right;
-  line-height: 1.35;
 }
 
 /* ---------- inner pages ---------- */
@@ -244,16 +242,7 @@ body {
 
 @media (max-width: 600px) {
 
-  /* home: keep fixed contact info out of the way */
-  .contact {
-    position: static;
-    text-align: center;
-    padding: 0 0 1.5rem;
-    font-size: 13px;
-  }
-
   .home {
-    min-height: calc(100vh - 3rem);
     padding: 1.5rem 1rem;
   }
 
