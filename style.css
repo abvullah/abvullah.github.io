@@ -221,3 +221,76 @@ img { max-width: 100%; }
   font-size: 12px;
   border-top: 1px solid #eee;
 }
+
+/* ---------- responsive / mobile ---------- */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  overflow-wrap: break-word;
+}
+
+.page {
+  padding: 2rem 1.25rem 4rem;
+}
+
+.home .name {
+  display: block;
+  line-height: 1.2;
+}
+
+@media (max-width: 600px) {
+
+  /* home: keep fixed contact info out of the way */
+  .contact {
+    position: static;
+    text-align: center;
+    padding: 0 0 1.5rem;
+    font-size: 13px;
+  }
+
+  .home {
+    min-height: calc(100vh - 3rem);
+    padding: 1.5rem 1rem;
+  }
+
+  .clock {
+    font-size: 15px;
+  }
+
+  /* blog explorer: tighter table, drop the size column */
+  .explorer-body { padding: 10px; }
+
+  .explorer-header { padding: 12px 14px; }
+  .explorer-header h1 { font-size: 19px; }
+
+  .explorer-container th,
+  .explorer-container td {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+
+  .explorer-container th:nth-child(2),
+  .explorer-container td:nth-child(2) { display: none; }
+
+  .explorer-container th:first-child,
+  .explorer-container td:first-child {
+    word-break: break-all;
+  }
+
+  .explorer-footer { padding: 10px 14px; }
+
+  /* inner pages: slightly smaller headings */
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+
+  pre {
+    font-size: 13px;
+    padding: 0.75rem 0.85rem;
+  }
+
+  blockquote { margin: 1rem 0; }
+}
