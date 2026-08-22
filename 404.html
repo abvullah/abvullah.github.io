@@ -3,23 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>404 — abdullah mohammad</title>
+<title>404 — Abdullah M.</title>
 <meta name="description" content="this page doesn't exist.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css">
+<style>
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #f5f2ea;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  a { color: #222; }
+</style>
 </head>
 <body>
-<a class="skip" href="#main">skip to content</a>
-
-<div class="about" id="main">
-  <div>
-    <p style="font-size:1.9rem"><b>404</b></p>
-    <p>this page doesn't exist. at least try another one.</p>
-    <br>
-    <p><a href="index.html">← back home</a></p>
-  </div>
-</div>
-
-<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');</script>
+<main>
+  <p style="font-size:2.5rem;font-weight:700">404</p>
+  <p>this page doesn't exist. at least try another one.</p>
+  <p><a href="/">← back home</a></p>
+</main>
 </body>
 </html>

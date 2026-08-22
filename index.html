@@ -3,63 +3,102 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>abdullah mohammad</title>
-<meta name="description" content="abdullah mohammad — student, builder, trying out everything.">
+<title>abd</title>
+  <meta name="description" content="abd: my personal website">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://abvullah.github.io/">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<a class="skip" href="#clock">skip to clock</a>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
 
-<div class="home">
-  <div>
-
-    <img class="avatar" src="IMG_4632.JPG" alt="abdullah mohammad" width="140" height="140">
-
-    <span class="name">「abdullah mohammad」</span>
-
-    <br><br>
-
-    <span class="clock" id="clock">
-      <i>
-        time in pakistan -
-        <span id="time">0:00:00 pm</span> pkt
-      </i>
-    </span>
-
-    <br><br>
-
-    <a href="about.html">about</a> //
-    <a href="blog.html">blog</a> //
-    <a href="projects.html">projects</a> //
-    <a href="contact.html">contact</a>
-
-  </div>
-</div>
-
-<script>
-(function () {
-  var formatter = new Intl.DateTimeFormat([], {
-    timeZone: "Asia/Karachi",
-    hour: "numeric",
-    minute: "numeric",
-    second: "numeric",
-    hour12: true
-  });
-
-  function updateTime() {
-    document.getElementById("time").textContent =
-      formatter.format(new Date()).toLowerCase();
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #f5f2ea;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
   }
 
-  window.onload = function () {
-    updateTime();
-    setInterval(updateTime, 1000);
-  };
-})();
-</script>
+  .card {
+    background: #fffdf7;
+    border: 1px solid #222;
+    max-width: 26rem;
+    width: 100%;
+    padding: 2.25rem 2rem;
+  }
 
-<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');</script>
+  h1 { font-size: 1.6rem; font-weight: 700; }
+
+  .tagline { margin-top: .4rem; color: #555; }
+
+  .links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }
+
+  .btn {
+    display: inline-block;
+    border: 1px solid #222;
+    padding: .45rem .9rem;
+    text-decoration: none;
+    color: #222;
+    font-size: .95rem;
+  }
+  .btn:hover { background: #222; color: #fffdf7; }
+
+  hr {
+    border: none;
+    text-align: center;
+    margin: 1.8rem 0 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  hr::before {
+    content: "─────  projects  ─────";
+    display: inline-block;
+    position: relative;
+    font-size: .75rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: #777;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  hr.contact::before { content: "─────  contact  ─────"; }
+
+  ul { list-style: none; }
+  li { margin: .35rem 0; }
+
+  a.inline { color: #222; }
+  a.inline:hover { opacity: .6; }
+
+  footer { margin-top: 1.8rem; font-size: .85rem; color: #777; }
+</style>
+</head>
+<body>
+
+<main class="card">
+  <h1>Abdullah M.</h1>
+  <p class="tagline">Discovering myself, one step at a time.🐧</p>
+
+  <nav class="links">
+    <a class="btn" href="https://github.com/abvullah" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://linkedin.com/in/amhmd" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+  </nav>
+
+  <hr>
+  <ul>
+    <li><a class="inline" href="https://sabz-tagreer.web.app" target="_blank" rel="noopener">Sabz-Tagreer</a></li>
+    <li><a class="inline" href="https://parhlobhai.vercel.app" target="_blank" rel="noopener">parhlobhai</a></li>
+  </ul>
+
+  <hr class="contact">
+  <ul>
+    <li><a class="inline" href="mailto:abvullah@icloud.com">abvullah@icloud.com</a></li>
+  </ul>
+
+  <footer>© 2026 Abdullah M.</footer>
+</main>
+
 </body>
 </html>
