@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "slug": "hope",
+      "title": "hope.",
+      "date": "2026-08-04",
+      "description": "a personal note on hope, being seen, and existing as a human being.",
+      "tags": "life, reflections"
+    },
+    {
+      "slug": "at-least-try",
+      "title": "at least try",
+      "date": "2026-07-31",
+      "description": "on the ninety-nine nos before one yes.",
+      "tags": "life"
+    },
+    {
+      "slug": "hello-world",
+      "title": "hello world",
+      "date": "2026-07-20",
+      "description": "the first post — this is home.",
+      "tags": "meta"
+    }
+  ]
+}

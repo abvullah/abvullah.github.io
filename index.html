@@ -1,47 +1,66 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Abdullah Mohammad</title>
-<meta name="description" content="Personal site of Abdullah Mohammad — writing, quotes, and projects.">
-<meta name="theme-color" content="#0d0d0d">
+<meta charset="utf-8">
+<title>abdullah mohammad</title>
+<meta name="description" content="abdullah mohammad — student, builder, trying out everything.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://abvullah.github.io/">
-<meta property="og:site_name" content="Abdullah Mohammad">
-<meta property="og:title" content="Abdullah Mohammad">
-<meta property="og:description" content="Personal site of Abdullah Mohammad — writing, quotes, and projects.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://abvullah.github.io/">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Abdullah Mohammad">
-<meta name="twitter:description" content="Personal site of Abdullah Mohammad — writing, quotes, and projects.">
 <link rel="stylesheet" href="style.css">
-<script>var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark')t=(matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';document.documentElement.setAttribute('data-theme',t);</script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
-<button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"></button>
-<main class="wrap" id="main">
+<a class="skip" href="#clock">skip to clock</a>
 
-  <h1>Abdullah Mohammad</h1>
-  <p class="tagline">trying out everything.</p>
+<div class="home">
+  <div>
 
-  <nav class="links">
-    <a href="https://github.com/abvullah" target="_blank" rel="noopener">GitHub</a>
-    <a href="https://linkedin.com/in/amhmd" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://instagram.com/abvullah" target="_blank" rel="noopener">Instagram</a>
-    <a href="mailto:abd140e@gmail.com">Email</a>
-    <a href="resume.pdf">Resume</a>
-  </nav>
+    <span class="name">「abdullah mohammad」</span>
 
-  <nav class="pages">
-    <a href="posts.html">Posts</a>
-    <a href="quotes.html">Quotes</a>
-    <a href="projects.html">Projects</a>
-  </nav>
+    <br><br>
 
-</main>
-<script src="theme.js"></script>
+    <span class="clock" id="clock">
+      <i>
+        time in pakistan -
+        <span id="time">0:00:00 pm</span> pkt
+      </i>
+    </span>
+
+    <br><br>
+
+    <a href="about.html">about</a> //
+    <a href="blog.html">blog</a> //
+    <a href="projects.html">projects</a> //
+    <a href="quotes.html">quotes</a> //
+    <a href="contact.html">contact</a>
+
+  </div>
+</div>
+
+<div class="contact">
+  <div>abd140e@gmail.com</div>
+</div>
+
+<script>
+(function () {
+  var formatter = new Intl.DateTimeFormat([], {
+    timeZone: "Asia/Karachi",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hour12: true
+  });
+
+  function updateTime() {
+    document.getElementById("time").textContent =
+      formatter.format(new Date()).toLowerCase();
+  }
+
+  window.onload = function () {
+    updateTime();
+    setInterval(updateTime, 1000);
+  };
+})();
+</script>
+
 </body>
 </html>

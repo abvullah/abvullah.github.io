@@ -1,0 +1,36 @@
+---
+title: hope.
+date: 2026-08-04
+description: A personal note on hope, being seen, and existing as a human being.
+tags: life, reflections
+---
+
+i'm someone who craves validation. i'd put it out there in the universe. but not the validation you think of. i don't want people to like me. i don't want people to glaze me for what i am. because i know i'm not the person who deserves to be glazed on.
+
+i just want to be validated, sitting in a park, seeing you yap your mind, and quietly let out everything. because for me, what lies ahead is the fact that someone trusted me enough, someone was like "jesse, you matter my brother" that i took on you as a support system.
+
+i just want to be heard, i want to exist quietly, but i do want to be seen. i do want people to know that if they need me, they got me. i don't want my insecurities to define me, my losses to be my personality, and for my wounds to be put on public display.
+
+i don't want to perform in front of people, who would move onto their own lives, whilst i'll still be standing there, witnessing it all happen. i want somewhere i can be someone who just exists as a human being, i want to FEEL things.
+
+but all i feel is the dead snakes in me, the weight of the expectations that my loved ones set on me, the late night preps I did, crying at 2 am, the night before the paper, and the silent monsters judging me.
+
+i want to be hidden, yet i want someone to still say to me: "jesse, you will make it"
+
+as sean maguire (gwh reference) said,
+
+> "And we get to choose who we're going to let into our weird little worlds. You're not perfect. And let me save you the suspense, this girl you met isn't either. The question is, whether or not you're perfect for each other. You can know everything in the world, but the only way you're findin' that one out is by giving it a shot. You sure won't get the answer from an old fucker like me. And even if I did know, I wouldn't tell you."
+
+i don't want to be someone who's perfect. i want to be weirdly imperfect. i'm not confident, i'm shy a lot where i don't fit in, i perform a lot, and i try to please people. i just don't want my failures, my vulnerabilities, and my melancholy to be the reason people are like is a solid reason to stay away from me.
+
+i have miles to go, before i sleep. miles, where i cannot see the road yet, i see the blocks that have been setup. but i still need to go on the miles to find the road. because if i wouldn't go through the blocks, then how will i find the road?
+
+and i just pray to god, to make me a source of good in this world. i don't want to cause pain. i don't want to be the reason someone cries to sleep, someone thinks that the world is a bad place. because i want to leave this world better than i found it in.
+
+i hope, because without hope, the only step left for me is to take a step that many take every year. (i hope you get the hint) but i have to keep hope. because no matter what, the darkness always seems to lessen. it won't ever leave completely, the darkness has to be there for the sun to rise. because the sunrise wouldn't be special, if it wasn't for the darkness following it.
+
+i just want to exist. not someone who's perfect. someone who can. someone who will be there for others, in their storms, and if they want to include me in their sunshine, i'd gladly accept the invite.
+
+i don't know where the roads will lead me for now, i have strayed so far from whom i am and i want to do. but i'll find him. i WILL. because of one thing:
+
+hope.

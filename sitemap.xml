@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://abvullah.github.io/</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
-    <loc>https://abvullah.github.io/posts.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://abvullah.github.io/about.html</loc>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
-    <loc>https://abvullah.github.io/quotes.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://abvullah.github.io/blog.html</loc>
+    <lastmod>2026-08-04</lastmod>
+  </url>
+  <url>
+    <loc>https://abvullah.github.io/contact.html</loc>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
     <loc>https://abvullah.github.io/projects.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
-    <loc>https://abvullah.github.io/hope.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://abvullah.github.io/quotes.html</loc>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
-    <loc>https://abvullah.github.io/hello%20world.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://abvullah.github.io/post.html?p=hope</loc>
+    <lastmod>2026-08-04</lastmod>
   </url>
   <url>
-    <loc>https://abvullah.github.io/at%20least%20try.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://abvullah.github.io/post.html?p=at-least-try</loc>
+    <lastmod>2026-08-04</lastmod>
+  </url>
+  <url>
+    <loc>https://abvullah.github.io/post.html?p=hello-world</loc>
+    <lastmod>2026-08-04</lastmod>
   </url>
 </urlset>
